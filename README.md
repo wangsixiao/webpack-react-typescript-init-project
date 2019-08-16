@@ -1,5 +1,5 @@
 # webpack-react-typescript-init-project
-基于webpack+react+typescript的基础启动项目
+
 使用react可以直接引入js文件，打开html文件就能看到效果，也可以使用create-react-app去快速的构建react开发环境。在这想自己使用webpack启动react项目，也算是练习下项目搭建。
 
 先介绍一下前面两种使用方式，当然菜鸟教程上也有。
