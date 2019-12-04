@@ -159,7 +159,11 @@ module.exports = {
   },
   // 文件引用不需要后缀名 import xx from 'xxx'
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx'] 
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+    // @代表src路径
+    alias: {
+      '@': path.join(__dirname, './src')
+    }
   },
   devServer: {
     inline: true, //实时刷新
