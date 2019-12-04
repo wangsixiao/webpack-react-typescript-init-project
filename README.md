@@ -178,7 +178,8 @@ module.exports = {
   //     filename: './index.html',
   //     template: 'index.html'
   //   }),
-  //   // new webpack.HotModuleReplacementPlugin()
+
+  //   // new webpack.HotModuleReplacementPlugin() // 引用这个插件配合hot实现热更新
   // ],
   mode: "development"
 }
